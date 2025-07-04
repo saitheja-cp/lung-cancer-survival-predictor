@@ -29,7 +29,6 @@ streamlit run app/predict_app.py
 ```
 lung_cancer_survival_project/
 ├── data/               # Raw dataset
-├── src/                # Training and utility scripts
 ├── saved_models/       # Saved model & scaler
 ├── app/                # Streamlit GUI
 ├── outputs/            # Evaluation metrics or plots
