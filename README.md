@@ -4,6 +4,11 @@
 Build a machine learning system that predicts the survival of lung cancer patients based on their medical, demographic, and treatment-related data.
 
 ## 📊 Dataset
+
+Click below to download the dataset directly:
+
+👉 [Download dataset_med.csv](https://drive.google.com/uc?export=download&id=17zbgw3Ef_4SUJSr69sBUD1IPDxC1_0IZ)
+
 The dataset consists of 890,000 patient records and includes features like:
 - Age, BMI, cholesterol level
 - Cancer stage, smoking history, comorbidities
