@@ -28,12 +28,13 @@ streamlit run app/predict_app.py
 ## 📁 Folder Structure
 ```
 lung_cancer_survival_project/
-├── data/               # Raw dataset
-├── saved_models/       # Saved model & scaler
-├── app/                # Streamlit GUI
-├── outputs/            # Evaluation metrics or plots
-├── requirements.txt    # Python dependencies
-└── README.md           # Project overview
+├── app/                 # Streamlit GUI
+├── data/                # Raw dataset
+├── outputs/             # Evaluation metrics or plots
+├── saved_models/        # Saved model & scaler
+├── lung_cancer_pipeline # Code
+├── README.md            # Project overview
+└── requirements.txt     # Python dependencies 
 ```
 
 ## 📦 Requirements
