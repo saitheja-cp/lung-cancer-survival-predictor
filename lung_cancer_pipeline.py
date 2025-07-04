@@ -12,14 +12,14 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
 # ====== Paths ======
-DATA_PATH = "D:/Unified Mentors/lung_cancer/Lung Cancer/data/dataset_med.csv"
-MODEL_PATH = "D:/Unified Mentors/lung_cancer/Lung Cancer/saved_models/model.pkl"
-SCALER_PATH = "D:/Unified Mentors/lung_cancer/Lung Cancer/saved_models/scaler.pkl"
-FEATURES_PATH = "D:/Unified Mentors/lung_cancer/Lung Cancer/saved_models/feature_names.pkl"
-PROB_CSV_PATH = "D:/Unified Mentors/lung_cancer/Lung Cancer/outputs/full_data_with_probabilities.csv"
-CATEGORY_ANALYSIS_XLSX = "D:/Unified Mentors/lung_cancer/Lung Cancer/outputs/category_analysis.xlsx"
-REPORT_PATH = "D:/Unified Mentors/lung_cancer/Lung Cancer/outputs/classification_report.txt"
-CORR_PATH = "D:/Unified Mentors/lung_cancer/Lung Cancer/outputs/correlation_heatmap.png"
+DATA_PATH = "........lung-cancer-survival-predictor-main/lung-cancer-survival-predictor-main/data/dataset_med.csv"
+MODEL_PATH = "........lung-cancer-survival-predictor-main/lung-cancer-survival-predictor-main/saved_models/model.pkl"
+SCALER_PATH = "........lung-cancer-survival-predictor-main/lung-cancer-survival-predictor-main/saved_models/scaler.pkl"
+FEATURES_PATH = "........lung-cancer-survival-predictor-main/lung-cancer-survival-predictor-main/saved_models/feature_names.pkl"
+PROB_CSV_PATH = "........lung-cancer-survival-predictor-main/lung-cancer-survival-predictor-main/outputs/full_data_with_probabilities.csv"
+CATEGORY_ANALYSIS_XLSX = "........lung-cancer-survival-predictor-main/lung-cancer-survival-predictor-main/outputs/category_analysis.xlsx"
+REPORT_PATH = "........lung-cancer-survival-predictor-main/lung-cancer-survival-predictor-main/outputs/classification_report.txt"
+CORR_PATH = "........lung-cancer-survival-predictor-main/lung-cancer-survival-predictor-main/outputs/correlation_heatmap.png"
 
 # ====== Load & preprocess dataset ======
 df = pd.read_csv(DATA_PATH)
