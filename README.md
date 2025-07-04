@@ -20,9 +20,9 @@ Your final folder structure should look like this
 
 lung-cancer-survival-predictor/
 
-├── data/
+  ├── data/
 
-  └── dataset_med.csv
+      └── dataset_med.csv
   
 The dataset consists of 890,000 patient records and includes features like:
 - Age, BMI, cholesterol level
