@@ -4,11 +4,23 @@
 Build a machine learning system that predicts the survival of lung cancer patients based on their medical, demographic, and treatment-related data.
 
 ## 📊 Dataset
-
+### 📂 Step 1: Download Dataset
 Click below to download the dataset directly:
 
 👉 [Download dataset_med.csv](https://drive.google.com/uc?export=download&id=17zbgw3Ef_4SUJSr69sBUD1IPDxC1_0IZ)
 
+### 📂 Step 2: Move the File to the `data/` Folder
+
+After downloading the file:
+
+1. Create a folder named `data` in the project root (if it doesn't exist already).
+2. Move the downloaded `dataset_med.csv` file into the `data` folder.
+
+Your final folder structure should look like this
+lung-cancer-survival-predictor/
+├── data/
+  └── dataset_med.csv
+  
 The dataset consists of 890,000 patient records and includes features like:
 - Age, BMI, cholesterol level
 - Cancer stage, smoking history, comorbidities
