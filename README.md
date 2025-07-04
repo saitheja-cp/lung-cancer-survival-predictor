@@ -18,6 +18,7 @@ After downloading the file:
 
 Your final folder structure should look like this
 lung-cancer-survival-predictor/
+
 ├── data/
   └── dataset_med.csv
   
