@@ -17,9 +17,11 @@ After downloading the file:
 2. Move the downloaded `dataset_med.csv` file into the `data` folder.
 
 Your final folder structure should look like this
+
 lung-cancer-survival-predictor/
 
 ├── data/
+
   └── dataset_med.csv
   
 The dataset consists of 890,000 patient records and includes features like:
